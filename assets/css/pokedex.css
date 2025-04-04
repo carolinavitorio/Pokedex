@@ -1,4 +1,7 @@
 .pokemons{
+    
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     padding: 0;
@@ -85,6 +88,15 @@
     padding: 1rem;
     border-radius: 1rem;
     color: #FFF;
+    opacity: .8;
+    transition: 500ms linear;
+    cursor: pointer;
+}
+
+.pokemon:hover{
+    opacity: 1;
+    transform: scale(1.1);
+
 }
 
 .pokemon .number{
@@ -147,7 +159,14 @@
     color: #FFF;
     border: none;
     border-radius: 1rem;
+    transition: 500ms linear;
 }   
+
+.pagination button:hover{
+    transform: scale(1.5);
+    font-size: .8;
+    cursor: pointer;
+}
     
 @media screen and (min-width: 380px){
     .pokemons{
@@ -165,4 +184,87 @@
     .pokemons{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+
+.cardContainer{
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    background-color: #00000080;
+    backdrop-filter: blur(10px);
+    
+}
+
+.cardContent{
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #FFFFFF96;
+ 
+}
+
+.cardClose{
+    top: -10px;
+    right: -130px;
+    position: relative ;
+    border: none;
+    border-radius: 60px;
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.topoCard{
+    background-color: #77c850;
+    color: #FFF;
+    width: 270px;
+    height: 175px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.topoCard .cardNumber{
+    opacity: .7;
+}
+
+.topoCard img{
+    width: 100px ;
+    height: 100px;
+}
+
+.detailCard{
+    background-color: #fbfaf7;
+    width: 270px;
+    height: 250px;
+    border-radius: 0 0 10px 10px;
+    padding: .8rem;
+    list-style: none;
+}
+
+.detailCard ol{
+    list-style: none;
+}
+
+.detailCard span{
+    font-size: .9rem;
+}
+
+.detailCard p{
+    font-size: .7rem;
 }
