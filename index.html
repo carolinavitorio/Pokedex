@@ -24,7 +24,9 @@
 
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
+       <div  class="logo">
+        <img src="./assets/pokedex_icon.png" alt="Pokedex">
+       </div>
         
         <ol id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->
@@ -37,36 +39,8 @@
         </div>
     </section>
 
-    <div class="cardContainer" id="cardContainer">
-        <div class="cardContent">
-            <div class="topoCard">
-                <button class="cardClose" id="fechar">X</button>
-                <span class="cardNumber">#1</span>
-                <span class="cardName">Bulbasauro</span>
-                <img src="./assets/001.png" alt="Bulbasauro">
-            </div>
-
-            <div class="detailCard">
-                <span>Abilities</span>
-                <p>info 1</p>
-
-                <span>Held Items</span>
-                <p> info 2</p>
-
-                <span>Moves</span>
-                <p> info 3</p>
-
-                <span>Stats</span>
-                <p> info 4</p>
-            
-            </div>
-
-        </div>
-    </div>
-
 
     <!-- Nosso JS -->
-    <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
