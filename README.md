@@ -28,7 +28,6 @@ Este projeto é uma **Pokedex interativa** desenvolvida com **HTML, CSS e JavaSc
 ![alt text](assets/detalhes.png)
 
 
-
 ## 🔗 Link de Acesso
 ### https://github.com/carolinavitorio/Pokedex.git
 ---
