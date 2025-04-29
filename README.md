@@ -1,4 +1,4 @@
-<img align=center>![alt text](assets/pokedex_icon.png)</img>
+![alt text](assets/pokedex_icon.png)
 
 ## 📌 Informações gerais
 
