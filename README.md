@@ -5,11 +5,13 @@
 Este projeto é uma **Pokedex interativa** desenvolvida com **HTML, CSS e JavaScript**, que consome a **PokeAPI** para exibir uma lista de Pokémons. Ao clicar em um Pokémon, suas características e alguns detalhes são exibidos.
 
 ## 🛠 Tecnologias Utilizadas
+<div>
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</div>
 
-- **HTML** (estrutura da aplicação)
-- **CSS** (estilização e layout responsivo)
-- **JavaScript** (manipulação do DOM e consumo da API)
-- **PokeAPI** (fornecimento dos dados dos Pokémons)
+ **PokeAPI** (fornecimento dos dados dos Pokémons)
 
 ## 🚀 Funcionalidades
 - **Exibição da Lista de Pokémons**: Mostra os nomes e imagens dos Pokémons.
